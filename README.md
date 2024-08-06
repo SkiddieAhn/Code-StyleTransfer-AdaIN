@@ -17,7 +17,7 @@ Other common packages.
 - **Celeb-A Faces** dataset is a large collection of celebrity facial images used for tasks like facial recognition and generative modeling.  
 - It includes over ```200,000``` diverse celebrity images.  
 - We trained this dataset as the content images for AdaIN.
-- Please download the data from the Google Drive link above, unzip the zip file, and then move it to the ```data``` directory.
+- Please download the data from the Google Drive link below, unzip the zip file, and then move it to the ```data``` directory.
 
 |     Celeb-A Faces            |
 |:------------------------:|
