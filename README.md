@@ -42,7 +42,7 @@ python train.py --wandb=True --batch_size=64 --iters=30000 --val_interval=100 --
   
 ```Shell
 # testing example
-python eval.py --trained_model=best_model --content=people --style=sad
+python eval.py --trained_model=best_model --content=people --style=star
 ```
 
 ## Pre-trained Models
