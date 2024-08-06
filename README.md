@@ -8,9 +8,9 @@ Most codes were obtained from the following GitHub page: [[Link]](https://github
 ## Environments  
 PyTorch >= 1.1.  
 Python >= 3.6.  
-torchvision
-pillow
-wandb
+torchvision.  
+pillow.  
+wandb.  
 Other common packages.  
 
 ## Dataset
