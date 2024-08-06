@@ -24,14 +24,13 @@ Other common packages.
 | [Google Drive](https://drive.google.com/file/d/0B7EVK8r0v71pZjFTYXZWM3FlRnM/view?resourcekey=0-dYn9z10tMJOBAkviAcfdyQ)   |
 
 ## Training
+- Please verify the training data path in ```config.py```.
 - When training starts, the ```weights/{style_name}```, and ```results/{style_name}``` folders are automatically created.
 - All saved models are located in the ```weights/{style_name}``` folder.
 - You can save your desired style image in the ```data``` folder and then proceed with training.
   
 ```Shell
-# default option for training.
-python train.py --wandb=True --batch_size=8 --iters=100000 --val_interval=1000 --save_interval=5000 --style=star
-# recommended option for training.
+# recommended option for training
 python train.py --wandb=True --batch_size=64 --iters=30000 --val_interval=100 --save_interval=5000 --style=star
 # Continue training with latest model
 python train.py --wandb=True --batch_size=64 --iters=30000 --val_interval=100 --save_interval=5000 --style=star --resume=5000
@@ -42,7 +41,7 @@ python train.py --wandb=True --batch_size=64 --iters=30000 --val_interval=100 --
 - You can save your desired style image in the ```data``` folder and then proceed with testing.
   
 ```Shell
-# testing example.
+# testing example
 python eval.py --trained_model=best_model --content=people --style=sad
 ```
 
