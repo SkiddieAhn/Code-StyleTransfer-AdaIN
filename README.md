@@ -26,7 +26,6 @@ Other common packages.
 ## Training
 - Please verify the training data path in ```config.py```.
 - When training starts, the ```weights/{style_name}```, and ```results/{style_name}``` folders are automatically created.
-- All saved models are located in the ```weights/{style_name}``` folder.
 - You can save your desired style image in the ```data``` folder and then proceed with training.
   
 ```Shell
