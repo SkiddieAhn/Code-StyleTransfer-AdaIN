@@ -37,8 +37,7 @@ python train.py --wandb=True --batch_size=64 --iters=30000 --val_interval=100 --
 ```
 
 ## Testing
-- You can save your desired content image in the ```data``` folder and then proceed with testing.
-- You can save your desired style image in the ```data``` folder and then proceed with testing.
+- You can save your desired content and style images in the ```data``` folder and then proceed with testing.
   
 ```Shell
 # testing example
