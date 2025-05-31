@@ -21,7 +21,7 @@ Other common packages.
 
 |     Celeb-A Faces            |
 |:------------------------:|
-| [Google Drive](https://drive.google.com/file/d/0B7EVK8r0v71pZjFTYXZWM3FlRnM/view?resourcekey=0-dYn9z10tMJOBAkviAcfdyQ)   |
+| [Google Drive](https://drive.google.com/file/d/1dsNgCvIXSDl2w2kljQvDr8JalDyyXOkV/view?usp=sharing)   |
 
 ## Training
 - Please verify the training data path in ```config.py```.
@@ -49,7 +49,7 @@ python eval.py --trained_model=best_model --content=people --style=star
 
 |   VGG     | Style: Sad    | Style: Star    |
 |:--------------:|:-----------:|:-----------:|
-|[Google Drive](https://drive.google.com/file/d/1ZiQWBvXwOBNOtPc9J0PMKAdXTDGQq7GR/view?usp=drive_link)|[Google Drive](https://drive.google.com/file/d/1V5tr6B_6Hx8KDdSvOq7szwg4qwy9Otbi/view?usp=drive_link)|[Google Drive](https://drive.google.com/file/d/1wJNlJhHUS4ESSm6lT_YJ90ZvD6m01Mfo/view?usp=drive_link)|
+|[Google Drive](https://drive.google.com/file/d/1G90vGCEJ9uwaKyKeo--2-JQI2gaa_Zcq/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/1b7qCl4PeKr8R4tC4XKwhRgDN5QEdUu3u/view?usp=sharing)|[Google Drive](https://drive.google.com/file/d/12AfgyYuoFRKPXkyzUtvDG3K1i7FffAhp/view?usp=sharing)|
 
 ## Results
 #### Validation results can be found on the path ```results/{style_name}```.  
